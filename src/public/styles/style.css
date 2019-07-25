@@ -691,10 +691,10 @@ div.rst__rowContents {
   #treeWrapper {
     height: 100%;
   }
-
   .left {
     padding: 10px 5px;
     width: 100%;
+    height: none;
   }
   .expansionPanel {
     padding-right: 5px;

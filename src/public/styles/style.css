@@ -665,6 +665,9 @@ div.rst__rowContents {
 }
 
 @media only screen and (max-width: 800px) {
+  .main-container {
+    height: 50vh;
+  }
   .top-container {
     height: 100%;
     width: 100%;
@@ -679,7 +682,7 @@ div.rst__rowContents {
     flex-grow: 0;
   }
   .main {
-    width: 100% !important;
+    width: 100%;
     flex-direction: column;
   }
   .main-container {
@@ -694,7 +697,7 @@ div.rst__rowContents {
   .left {
     padding: 10px 5px;
     width: 100%;
-    height: none;
+    height: auto;
   }
   .expansionPanel {
     padding-right: 5px;
